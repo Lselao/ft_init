@@ -1,8 +1,9 @@
 #!/bin/bash
-function get_percentage($total, $number)
-if ( $total > 0 ) {
-    return round($number * ($total / 100),2);
-} else {
-    return 0;
-    }
-}
+#always add by 2 function
+
+
+echo "Enter num1"
+read n1
+
+(( total=n1+2 ))
+echo "Final answer is = $total"
